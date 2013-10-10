@@ -1,0 +1,28 @@
+{
+    "name": "alexwhitman/view-themes",
+    "description": "Provides support for themed views in Laravel.",
+    "keywords": ["laravel", "view", "themes"],
+    "homepage": "http://github.com/alexwhitman/laravel-view-themes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Whitman",
+            "email": "alex@alexwhitman.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/view": "4.0.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.7.x",
+        "phpunit/phpunit": "3.7.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "AlexWhitman\\ViewThemes": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
