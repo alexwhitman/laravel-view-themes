@@ -65,6 +65,10 @@ View::make('admin'); // Loads app/themes/default/views/layout.blade.php
 
 ## Changelog
 
+### 1.1.1
+
+- Clear previous paths on initialise
+
 ### 1.1.0
 
 - Update for Laravel 4.1

@@ -38,6 +38,7 @@ class ThemeFileViewFinder extends FileViewFinder {
 		$this->themesLocation = null;
 		$this->defaultTheme   = null;
 		$this->currentTheme   = null;
+		$this->paths          = array();
 	}
 
 	/**
