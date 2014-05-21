@@ -36,6 +36,16 @@ class ViewFinderTest extends PHPUnit_Framework_TestCase {
 		$this->assertEquals('foo', $finder->getCurrentTheme());
 	}
 
+	public function testGettingCurrentThemePath()
+	{
+		$finder = $this->getFinder();
+
+		$finder->setThemesLocation(__DIR__);
+		$finder->setCurrentTheme('foo');
+
+		$this->assertEquals(__DIR__ . '/foo', $finder->getCurrentThemePath());
+	}
+
 	public function testGettingAvailableThemes()
 	{
 		$finder = $this->getFinder();

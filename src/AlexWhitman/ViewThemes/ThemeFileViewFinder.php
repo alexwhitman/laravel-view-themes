@@ -120,6 +120,16 @@ class ThemeFileViewFinder extends FileViewFinder {
 	}
 
 	/**
+	 * Get the path to the theme currently in use.
+	 *
+	 * @return string Path to the current theme
+	 */
+	public function getCurrentThemePath()
+	{
+		return $this->themesLocation . '/' . $this->currentTheme;
+	}
+
+	/**
 	 * Gets a list of available themes in the theme directory.
 	 *
 	 * @return array Names of available themes
