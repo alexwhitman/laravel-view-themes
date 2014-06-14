@@ -6,7 +6,7 @@ View themes is a simple package to provide themed view support to Laravel.
 
 Add `alexwhitman/view-themes` to the `require` section of your `composer.json` file.
 
-`"alexwhitman/view-themes": "1.1.x"`
+`"alexwhitman/view-themes": "1.2.x"`
 
 Run `composer update` to install the latest version.
 
@@ -64,6 +64,10 @@ View::make('admin'); // Loads app/themes/default/views/layout.blade.php
 ```
 
 ## Changelog
+
+## 1.2.0
+
+- Update for Laravel 4.2
 
 ### 1.1.2
 
